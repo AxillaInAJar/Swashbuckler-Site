@@ -1,8 +1,13 @@
+@font-face {
+  font-family: SanFranciscoDisplay;
+  src: url('System San Francisco Display Regular.ttf');
+}
 body { 
   background-color:#444444;
   height:100%;
   padding:0;
   margin:0;
+  font-family:SanFranciscoDisplay;
 }
 html {
   height:100%;
@@ -30,6 +35,7 @@ html {
   padding:20px;
   font-size:75%;
   font-weight:bold;
+  box-sizing: border-box;
 }
 #container {
   background-color:#E6E6E8;
