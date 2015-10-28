@@ -1,4 +1,4 @@
 # ReadMe, maybe?
 
-*Maroon used*: #701516
-*Font used*: https://github.com/supermarin/YosemiteSanFranciscoFont
+<b>Maroon used</b>: #701516<br/>
+<b>Font used</b>: https://github.com/supermarin/YosemiteSanFranciscoFont
