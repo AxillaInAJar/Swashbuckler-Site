@@ -10,10 +10,10 @@ html {
 #nav { 
   background-color:#222222;
   width:100%;
+  height:50px;
   max-height:50px;
   text-align:center;
   color:white;
-  font-family:"Helvetica";
 }
 #logo {
   padding:15px;
@@ -22,6 +22,7 @@ html {
   list-style-type:none;
   padding:0;
   margin:0;
+  height:inherit;
 }
 #nav ul li {
   display:inline-block;
@@ -30,7 +31,6 @@ html {
   font-size:75%;
   font-weight:bold;
 }
-
 #container {
   background-color:#E6E6E8;
   height:100%;
@@ -68,6 +68,5 @@ html {
   transition-property: color, background-color;
 }
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
-  background-color: #2098d1;
-  color: white;
+  background-color: #444444;
 }
