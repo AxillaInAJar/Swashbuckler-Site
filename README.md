@@ -1,2 +1,3 @@
-# Swashbuckler-Site
-Swashbuckler Website
+# ReadMe, maybe?
+
+*Maroon used*: #701516
