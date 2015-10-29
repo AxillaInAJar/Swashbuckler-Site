@@ -41,6 +41,7 @@ html {
   font-size:75%;
   font-weight:bold;
   box-sizing: border-box;
+  text-transform: uppercase;
 }
 #container {
   background-color:#E6E6E8;
