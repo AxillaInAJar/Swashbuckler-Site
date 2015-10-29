@@ -88,7 +88,7 @@ html {
   transition-property: color, background-color;
 }
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
-  background-color: #444444;
+  background-color: #701516;
 }
 #inactive.hvr-fade {
   background-color:#701516;
