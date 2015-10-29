@@ -3,6 +3,6 @@
 
 function openLink(url) {
 
-  // script here I guess
+  window.open(url, "_self", "");
 
 }
