@@ -87,3 +87,7 @@ html {
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
   background-color: #444444;
 }
+a {
+color: #FFFFFF;
+text-decoration:none;
+}
