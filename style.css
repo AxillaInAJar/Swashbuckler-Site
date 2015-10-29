@@ -88,11 +88,10 @@ html {
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
   background-color: #444444;
 }
-.dootdoot {
- background-color: #444444; 
+.hvr-fade:hover #inactive, .hvr-fade:focus #inactive, .hvr-fade:active #inactive {
+  background-color:#701516;
 }
-}
-a {
+a, a:active {
 color: #FFFFFF;
 text-decoration:none;
 }
