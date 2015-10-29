@@ -44,6 +44,7 @@ html {
   text-transform: uppercase;
   margin-left:-2px;
   margin-right:-2px;
+  cursor:pointer;
 }
 #container {
   background-color:#E6E6E8;
