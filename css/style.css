@@ -1,6 +1,6 @@
 @font-face {
   font-family: SanFranciscoDisplay;
-  src: url('System San Francisco Display Regular.ttf');
+  src: url('../fonts/System San Francisco Display Regular.ttf');
 }
 body { 
   background-color:#701516;
@@ -9,7 +9,7 @@ body {
   padding:0;
   margin:0;
   font-family:SanFranciscoDisplay;
-  background-image:url('images/logo.png'); 
+  background-image:url('../images/logo.png'); 
   background-position:50% -2%;
   background-repeat: no-repeat;
 }
