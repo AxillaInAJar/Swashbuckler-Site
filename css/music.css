@@ -1,0 +1,21 @@
+.musician {
+  height:150px;
+  border:1px solid white;
+  width:150px;
+  background-size:cover;
+  display:inline-block;
+  margin:5px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.inner-m {
+  background-color:rgba(0,0,0,0.5);
+  text-align:center;
+  color:white;
+  font-family:SanFranciscoDisplay;
+  padding:5px;
+  margin-top:122px;
+}

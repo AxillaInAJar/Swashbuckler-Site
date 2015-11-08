@@ -2,21 +2,21 @@
   font-family: SanFranciscoDisplay;
   src: url('../fonts/System San Francisco Display Regular.ttf');
 }
-body { 
+body {
   background-color:#701516;
   image-rendering: pixelated;
   height:100%;
   padding:0;
   margin:0;
   font-family:SanFranciscoDisplay;
-  background-image:url('../images/logo.png'); 
+  background-image:url('../images/logo.png');
   background-position:50% -2%;
   background-repeat: no-repeat;
 }
 html {
   height:100%;
 }
-#nav { 
+#nav {
   margin-top:150px;
   background-color:#222222;
   width:100%;
@@ -24,6 +24,10 @@ html {
   max-height:50px;
   text-align:center;
   color:white;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 #logo {
   padding:15px;
@@ -69,7 +73,7 @@ html {
   border-radius:3px;
   border:1px solid rgba(0,0,0,0.2);
   vertical-align:top;
-  padding:15px; 
+  padding:15px;
   text-align:center;
 }
 /* Fade */
