@@ -6,9 +6,9 @@ function openLink(url) {
 }
 
 function socialMedia() {
-  facebook = '<img src="images/FB-logo.png" style="width:100%;"/>';
-  youtube = '<img src="images/YT-logo.png" style="width:100%;"/>';
-  twitter = '<img src="images/TW-logo.png" style="width:100%;"/>';
+  facebook = '<img src="images/FB-logo.png" style="width:100%; display:block;"/>';
+  youtube = '<img src="images/YT-logo.png" style="width:100%; display:block;"/>';
+  twitter = '<img src="images/TW-logo.png" style="width:100%; display:block;"/>';
   document.getElementById('social').innerHTML = facebook + "<br/><br/> " + youtube + "<br/><br/> " + twitter;
 }
 
