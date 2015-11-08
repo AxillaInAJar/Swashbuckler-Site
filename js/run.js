@@ -10,9 +10,7 @@ function socialMedia() {
   youtube = '<img src="images/YT-logo.png" style="width:100%;" id="yt" />';
   twitter = '<img src="images/TW-logo.png" style="width:100%;" id="tw" />';
   document.getElementById('social').innerHTML = facebook + "<br/><br/> " + youtube + "<br/><br/> " + twitter;
-  document.getElementById('fb').style.display = "block"; document.getElementById('fb').style.visibility = "visible";
-  document.getElementById('yt').style.display = "block"; document.getElementById('yt').style.visibility = "visible";
-  document.getElementById('tw').style.display = "block"; document.getElementById('tw').style.visibility = "visible";
+  // Github doesn't show logos besides the YouTube one for some reason. Ignore it.
 }
 
 window.onload = function() {
