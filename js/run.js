@@ -6,9 +6,9 @@ function openLink(url) {
 }
 
 function socialMedia() {
-  facebook = '<img src="images/FB-logo.png" id="fb"/>';
-  youtube = '<img src="images/YT-logo.png" id="yt" />';
-  twitter = '<img src="images/TW-logo.png" id="tw" />';
+  facebook = '<a href="https://www.facebook.com/SwashbucklerRecords"><img src="images/FB-logo.png" id="fb"/></a>';
+  youtube = '<a href="https://www.youtube.com/user/SwashbucklerRecords"><img src="images/YT-logo.png" id="yt" /></a>';
+  twitter = '<a href="https://twitter.com/swashrecords"><img src="images/TW-logo.png" id="tw" /></a>';
   document.getElementById('social').innerHTML = facebook + "<br/><br/> " + youtube + "<br/><br/> " + twitter;
   // Github doesn't show logos besides the YouTube one for some reason. Ignore it.
 }
