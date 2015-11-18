@@ -4,6 +4,10 @@
     <script src="js/run.js"></script>
   </head>
   <body>
+    <form id='term' onsubmit='terminal.getin(); return false;'>
+        <input type='text' id='termin' placeholder='Type your command here.' autocomplete="off"/>
+        <input type="submit" style="visibility: hidden;" />
+    </form>
     <div id='nav'>
       <ul>
         <li id="inactive" class="hvr-fade">Main</li>
