@@ -27,6 +27,12 @@ function rain() {
 
 }
 
+function toml() {
+
+  $('.rain').append('<img src="images/cat.gif" style="position:absolute;">');
+
+}
+
 terminal = new Object();
 terminal = {
   hide: function() {
@@ -39,10 +45,11 @@ terminal = {
 
   getin: function() {
     var command = document.getElementById("termin").value;
-    c = ['soup'];
+    c = ['soup', 'tom'];
 
     switch(command) {
       case c[0]: rain();  break;
+      case c[1]: toml(); break;
       default: alert("Command is non-existent. List: " + c + "."); break;
     }
 
