@@ -5,6 +5,28 @@ function openLink(url) {
   window.open(url, "_self", "");
 }
 
+// number of drops created.
+var nbDrop = 858;
+
+// function to generate a random number range.
+function randRange( minNum, maxNum) {
+  return (Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum);
+}
+
+// function to generate drops
+function rain() {
+
+	for( i=1;i<nbDrop;i++) {
+	var dropLeft = randRange(0,1600);
+	var dropTop = randRange(-1000,1400);
+
+	$('.rain').append('<div class="drop" id="drop'+i+'"></div>');
+	$('#drop'+i).css('left',dropLeft);
+	$('#drop'+i).css('top',dropTop);
+	}
+
+}
+
 terminal = new Object();
 terminal = {
   hide: function() {
@@ -20,7 +42,7 @@ terminal = {
     c = ['soup'];
 
     switch(command) {
-      case c[0]: alert("Duuuuuuuude.");  break;
+      case c[0]: rain();  break;
       default: alert("Command is non-existent. List: " + c + "."); break;
     }
 

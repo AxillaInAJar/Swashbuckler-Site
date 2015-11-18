@@ -1,0 +1,19 @@
+.drop {
+  background:url('../images/chickennoodle.png');
+  background-size:cover;
+	width:50px;
+	height:50px;
+	position: absolute;
+	bottom:200px;
+	-webkit-animation: fall 1s linear infinite;
+  -moz-animation: fall 1s linear infinite;
+
+}
+
+/* animate the drops*/
+@-webkit-keyframes fall {
+	to {margin-top:900px;}
+}
+@-moz-keyframes fall {
+	to {margin-top:900px;}
+}
